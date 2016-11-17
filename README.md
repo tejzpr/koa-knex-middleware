@@ -5,7 +5,7 @@ koa-knexjs
 [![Dependency Status][daviddm-image]][daviddm-url]
 
 Knex.js Middleware for Koa. Package is versioned in step with <http://knexjs.org/#changelog>
-Repository forked from (https://github.com/tjwebb/koa-knex-middleware)[https://github.com/tjwebb/koa-knex-middleware]
+Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://github.com/tjwebb/koa-knex-middleware)
 
 ### 0. Installation (via [npm](https://npmjs.org/package/koa-knex))
 
