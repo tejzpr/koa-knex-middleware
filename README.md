@@ -8,7 +8,7 @@ Knex.js Middleware for Koa. Package is versioned in step with <http://knexjs.org
 
 Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://github.com/tjwebb/koa-knex-middleware)
 
-### 0. Installation (via [npm](https://npmjs.org/package/koa-knex))
+### 0. Installation (via [npm](https://npmjs.org/package/koa-knexjs))
 
 ```bash
   $ npm install koa-knexjs --save
@@ -54,6 +54,6 @@ The following environment variables will be automatically used for the Knex.js c
 
 [MIT](http://www.opensource.org/licenses/mit-license.php)
 
-[npm-image]: https://img.shields.io/npm/v/koa-knex.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/koa-knexjs.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/koa-knexjs
 
