@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/tjwebb/koa-knex-middleware",
   "dependencies": {
-    "knex": "^0.7.3"
+    "knex": "^0.12.6"
   }
 }
