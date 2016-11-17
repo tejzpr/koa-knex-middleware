@@ -1,4 +1,4 @@
-koa-knex-middleware
+js-middleware
 ===================
 
 [![NPM version][npm-image]][npm-url]
