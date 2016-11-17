@@ -16,6 +16,7 @@
     "koa",
     "koajs",
     "koa-middleware",
+    "koa-knexjs",
     "middleware",
     "es6"
   ],
