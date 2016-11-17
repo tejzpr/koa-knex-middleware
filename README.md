@@ -2,7 +2,7 @@ koa-knexjs
 ===================
 
 [![NPM version][npm-image]][npm-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
+
 
 Knex.js Middleware for Koa. Package is versioned in step with <http://knexjs.org/#changelog>
 
