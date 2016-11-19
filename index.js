@@ -4,7 +4,7 @@ module.exports = function (opts) {
   return function *knex(next) {
     var conn = opts.connection || { };
     var env = process.env;
-    global.__knex || (global.__knex = Knex.initialize({
+    global.__knex || (global.__knex = Knex({
       client: opts.client,
       connection: {
         host: conn.host || env.KOA_KNEX_HOST,
