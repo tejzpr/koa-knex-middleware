@@ -12,6 +12,17 @@ Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://g
 
 ```bash
   $ npm install koa-knexjs --save
+  
+  # Then add one of the following (adding a --save) flag:
+  $ npm install pg
+  $ npm install sqlite3
+  $ npm install mysql
+  $ npm install mysql2
+  $ npm install mariasql
+  $ npm install strong-oracle
+  $ npm install oracle
+  $ npm install mssql
+  $ npm install oracledb
 ```
 
 ### 1. Usage (contrived example)
@@ -49,7 +60,22 @@ The following environment variables will be automatically used for the Knex.js c
   KOA_KNEX_SSL
   KOA_KNEX_DEBUG
 ```
-  
+### 3. Changes
+
+Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://github.com/tjwebb/koa-knex-middleware)
+The origial repository was forked for adding support to knex 0.12.x. 
+As of now the following drivers are supported
+
+- pg
+- sqlite3
+- mysql
+- mysql2
+- mariasql
+- strong-oracle
+- oracle
+- oracledb
+- mssql
+
 ### License
 
 [MIT](http://www.opensource.org/licenses/mit-license.php)
