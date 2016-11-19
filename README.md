@@ -6,9 +6,7 @@ koa-knexjs
 
 Knex.js Middleware for Koa. Package is versioned in step with <http://knexjs.org/#changelog>
 
-Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://github.com/tjwebb/koa-knex-middleware)
-
-### 0. Installation (via [npm](https://npmjs.org/package/koa-knexjs))
+### Installation (via [npm](https://npmjs.org/package/koa-knexjs))
 
 ```bash
   $ npm install koa-knexjs --save
@@ -25,7 +23,7 @@ Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://g
   $ npm install oracledb
 ```
 
-### 1. Usage
+### Usage
 
 ```javascript
 
@@ -47,7 +45,7 @@ Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://g
 
 ```
 
-### 2. Options
+### Options
 
 The following environment variables will be automatically used for the Knex.js connection object if set:
 ```
@@ -60,7 +58,7 @@ The following environment variables will be automatically used for the Knex.js c
   KOA_KNEX_SSL
   KOA_KNEX_DEBUG
 ```
-### 3. Changes
+### Changes
 
 Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://github.com/tjwebb/koa-knex-middleware)
 The origial repository was forked for adding support to knex 0.12.x. 
