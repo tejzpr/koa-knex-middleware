@@ -25,7 +25,7 @@ Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://g
   $ npm install oracledb
 ```
 
-### 1. Usage (contrived example)
+### 1. Usage
 
 ```javascript
 
@@ -33,7 +33,7 @@ Repository forked from [https://github.com/tjwebb/koa-knex-middleware](https://g
   var knex = require('koa-knexjs');
   ...
   app.use(knex({
-    client: 'pg',
+    client: 'pg', //or sqlite3, mysql, mysql2, mariasql, strong-oracle, oracle, mssql, oracledb
     connection: {
       /** typical knex connection object */
     }
