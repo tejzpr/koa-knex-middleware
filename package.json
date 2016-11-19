@@ -1,6 +1,6 @@
 {
   "name": "koa-knexjs",
-  "version": "0.12.64",
+  "version": "0.12.65",
   "description": "knex.js middleware for Koa.js",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "koajs",
     "koa-middleware",
     "koa-knexjs",
+    "oracledb",
     "middleware",
     "es6"
   ],
